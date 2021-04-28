@@ -11,7 +11,7 @@ public class Builder {
         this.person.name = name;
     }
 
-    public void SetAge(int age) {
+    public void setAge(int age) {
         this.person.age = age;
     }
 
