@@ -1,7 +1,7 @@
 package SpaseLab.HW1.AbstractFactory;
 
-public class UAFerrariImpl implements Ferrari {
+public class RUFerraryImpl implements Ferrari {
     public long getFerrariPrice() {
-        return 7000000;
+        return 17500000;
     }
 }
