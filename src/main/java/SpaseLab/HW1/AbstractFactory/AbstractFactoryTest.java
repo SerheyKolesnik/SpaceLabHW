@@ -13,6 +13,7 @@ public class AbstractFactoryTest {
 
         Lada lada = ifactory.getLada();
         System.out.println(lada.getLadaPrice());
+        System.out.println("");
 
     }
 }
