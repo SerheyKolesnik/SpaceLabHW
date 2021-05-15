@@ -10,6 +10,6 @@ class SingletonInstant {
         if (instance == null) {
             instance = new SingletonInstant();
         }
-        return (instance);
+        return instance;
     }
 }
