@@ -1,20 +1,13 @@
 package SpaseLab.HW2_Behavioral.Memento;
 
 public class Memento {
-    private String name;
-    private int age;
+    private final String state;
 
-    public Memento(String name, int age) {
-        this.name = name;
-        this.age = age;
+    public Memento(String state) {
+        this.state = state;
     }
 
-    public String getName() {
-        return name;
+    public String getState() {
+        return state;
     }
-
-    public int getAge() {
-        return age;
-    }
-
 }
