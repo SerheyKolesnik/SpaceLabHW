@@ -1,0 +1,23 @@
+package SpaseLab.HW3_Structural.Adapter;
+
+public class Iphone implements LightningPhone {
+
+    private boolean connector;
+
+    @Override
+    public void recharge() {
+        if (connector) {
+            System.out.println("recharge started");
+            System.out.println("recharge finished");
+        } else {
+            System.out.println("Connect Lightning first");
+        }
+    }
+
+    @Override
+    public void useLightning() {
+        connector = true;
+        System.out.println("Lightning connected");
+    }
+
+}
