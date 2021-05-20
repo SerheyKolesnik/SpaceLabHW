@@ -9,7 +9,8 @@ public class CharacterC extends EnglishCharacter {
     }
 
     @Override
-    public void printCarcter() {
+    public void printCharacter() {
+
         System.out.println("symbol = " + symbol + " Width " + wedth + "Height " + height);
     }
 }
