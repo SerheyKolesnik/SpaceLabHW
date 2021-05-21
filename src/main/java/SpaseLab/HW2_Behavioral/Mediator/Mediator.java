@@ -1,3 +1,4 @@
+//--
 package SpaseLab.HW2_Behavioral.Mediator;
 
 public class Mediator {
