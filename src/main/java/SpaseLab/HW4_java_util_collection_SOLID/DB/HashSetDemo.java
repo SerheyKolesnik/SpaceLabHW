@@ -9,6 +9,7 @@ public class HashSetDemo {
         hs.add("venus");
         hs.add("earth");
         hs.add("mars");
+
         System.out.println("напечатаем стартовое множество");
 
         for (String ehs : hs) {
@@ -25,6 +26,8 @@ public class HashSetDemo {
         for (String ehs : hs) {
             System.out.println(ehs);
         }
+
+        System.out.println(hs);
 
     }
 }
