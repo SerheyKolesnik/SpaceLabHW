@@ -10,6 +10,6 @@ public class TreeMapDemoTest extends TestCase {
     @Test
     public void testCreateTestMap() {
         TreeMap<String, String> tmt = TreeMapDemo.createTreeMap();
-        assertEquals("CEM II/A-S-400", tmt.get("000124"));
+        assertEquals("CEM II A-S 32.5", tmt.get("000124"));
     }
 }
