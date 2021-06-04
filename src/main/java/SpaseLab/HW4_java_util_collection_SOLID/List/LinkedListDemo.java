@@ -1,4 +1,4 @@
-package SpaseLab.HW4_java_util_collection_SOLID.DB;
+package SpaseLab.HW4_java_util_collection_SOLID.List;
 
 import java.util.LinkedList;
 import java.util.List;
